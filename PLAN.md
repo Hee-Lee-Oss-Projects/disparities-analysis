@@ -317,7 +317,7 @@ only be framed in a stigmatizing way, the project **does not produce it** and re
 This is primarily a **data + analysis + writing** project (deliverables: `dataset`, `document`),
 with supporting tooling. Reproducibility, provenance, and review are the architecture.
 
-**Stack and a deliberate convention note.** Elyos's default is TypeScript/ESM/pnpm, and all **glue,
+**Stack and a deliberate convention note.** Hee-Lee Oss's default is TypeScript/ESM/pnpm, and all **glue,
 validation, provenance-schema, CI, and lint tooling is TypeScript/ESM** accordingly. However, the
 **statistical analysis itself uses the standard, citable open-source epidemiology toolchain**
 (Python: `pandas`, `numpy`, `lifelines`/`statsmodels`; and/or R: `epitools`, plus NCI's
@@ -325,7 +325,7 @@ validation, provenance-schema, CI, and lint tooling is TypeScript/ESM** accordin
 tools epidemiologists actually use and review — using a bespoke TS reimplementation of
 age-standardization or joinpoint would be *less* trustworthy, not more. This deviation from the
 TS-only default is intentional and recorded here for the maintainer's sign-off; the agent-neutral
-Elyos rules about no vendor lock-in and no secrets in logs still apply.
+Hee-Lee Oss rules about no vendor lock-in and no secrets in logs still apply.
 
 **Components / pipeline**
 
@@ -522,7 +522,7 @@ advice — consult your care team"** label and ships only with oncologist + advo
 helpline/crisis/resource information is **independently verified against an authoritative current
 source and dated** (`lastVerified`), with a staleness check before publication.
 
-**No secrets / no PII in artifacts** (Elyos rule). No API keys, tokens, or any personal data in
+**No secrets / no PII in artifacts** (Hee-Lee Oss rule). No API keys, tokens, or any personal data in
 logs, receipts, notebooks, or committed files — trivially satisfied here because no personal data is
 ingested, but enforced in CI regardless.
 
@@ -640,7 +640,7 @@ on a secured oncologist + advocate pair; M5 blocks on a secured delivery partner
 ## Work breakdown
 
 The itemized, schema-mapped backlog lives in **`TASKS.md`**: ~18 tasks across milestones M0–M6 plus
-a future backlog, each mapped to the Elyos Task JSON schema, with per-task acceptance criteria for
+a future backlog, each mapped to the Hee-Lee Oss Task JSON schema, with per-task acceptance criteria for
 the most important items, milestone Definitions of Done, and a complete example Task JSON for the
 first M0 task (the non-stigmatizing framing & editorial policy). The first build items are the
 **framing/editorial policy** and the **statistical-methods + provenance + suppression standard**,
@@ -672,13 +672,13 @@ oncologist + advocate pair.
     approved (no implied endorsement of the whole project).
   - **Disagreement fallback:** on a HIGH-tier item, the oncologist/advocate hold a **veto on whether
     patient-facing content is safe to ship**; a maintainer cannot override a "do not ship" on
-    substance. Unresolved disputes escalate to Elyos governance / a second credentialed reviewer.
+    substance. Unresolved disputes escalate to Hee-Lee Oss governance / a second credentialed reviewer.
 - **Steward (last-mile owner): TO BE SECURED** — owns the partner relationship and the adoption that
   constitutes shipping; records the outcome.
 - **Partner / requestor: TO BE SECURED** — the advocacy org, cancer-center COE program, public-health
   department, or research group that adopts the work.
 - **Community / board:** the CC-BY-vs-source-NC license conflict, exemplar-site choice, and any
-  edge-cases go through Elyos governance.
+  edge-cases go through Hee-Lee Oss governance.
 
 ---
 
@@ -695,8 +695,8 @@ oncologist + advocate pair.
   Equity Guiding Principles for Inclusive Communication + CDC Health Equity Style Guide + AMA/AAMC
   Advancing Health Equity language guide** (editorial-policy normative base); OMB 1997 & 2024
   race/ethnicity standards.
-- **Elyos pieces:** `packages/schema` (Task JSON), `CLAUDE.md` (work rules + cancer guardrails),
-  `docs/good-deed-definition.md` (risk tiers), Elyos governance (license + edge-case decisions).
+- **Hee-Lee Oss pieces:** `packages/schema` (Task JSON), `CLAUDE.md` (work rules + cancer guardrails),
+  `docs/good-deed-definition.md` (risk tiers), Hee-Lee Oss governance (license + edge-case decisions).
 - **Human/decision dependencies (critical path):** the **exemplar-site decision (M0, gates M1–M6)**;
   a secured **epi/biostat reviewer + framing reviewer** (block M2); a secured **oncologist +
   advocate pair** (block M4); a secured **delivery partner/steward** (block M5).
@@ -804,7 +804,7 @@ framing, community + methods review).
 - **GLOBOCAN/IARC and other non-commercial source terms vs. CC-BY-4.0.** CC-BY permits commercial
   reuse, which some IARC/WHO terms forbid for derived data. Resolution path proposed (publish method
   + pointer, or apply source-mandated NC/attribution to that artifact), but the final license posture
-  per source needs an Elyos governance decision and per-release verification.
+  per source needs a Hee-Lee Oss governance decision and per-release verification.
 - **Causation-framing calibration (evidence tiers).** How strongly may a structural frame be stated
   from purely ecological data before it itself becomes an over-claim? The "measures the gap" vs.
   "literature attributes such gaps to X (cite)" tier boundary needs the framing **and** methods
@@ -846,11 +846,11 @@ framing, community + methods review).
 ## References
 
 - Proposal: `governance/proposals/disparities-analysis.md` *(TO BE CREATED — not yet written)*
-- Elyos work rules & cancer guardrails: `CLAUDE.md` (Track 8 domain guardrails)
+- Hee-Lee Oss work rules & cancer guardrails: `CLAUDE.md` (Track 8 domain guardrails)
 - Good-deed definition & risk tiers: `docs/good-deed-definition.md`
 - Task JSON schema: `packages/schema/src/schemas.ts`
 - Portfolio context: `planning/ROADMAP.md` (Track 8b — `disparities-analysis`, `incidence-explorers`)
-- Sibling Elyos plans for house style: `planning/projects/public-official-guide/{PLAN,TASKS}.md`,
+- Sibling Hee-Lee Oss plans for house style: `planning/projects/public-official-guide/{PLAN,TASKS}.md`,
   `planning/projects/open-data-datasheets/{PLAN,TASKS}.md`
 - Data sources: NCI SEER & SEER\*Explorer; NCI State Cancer Profiles; U.S. Cancer Statistics
   (CDC+NCI) + USCS Data Viz Tool; CDC WONDER; IARC Global Cancer Observatory / GLOBOCAN; U.S.

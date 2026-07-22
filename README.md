@@ -6,7 +6,7 @@ Cancer does not fall evenly. People in some racial and ethnic groups, some geogr
 
 **Definition of shipped:** community adopts an analysis and uses it to inform a concrete program, report, grant, or decision — with methods and non-stigmatizing framing independently verified, every assertion sourced, and (for any patient-facing piece) oncologist + advocate sign-off recorded.
 
-This is an **Elyos** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Platform: https://github.com/jdev1977/elyos
+This is an **Hee-Lee Oss** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Platform: https://github.com/jdev1977/hee-lee-oss
 
 ## Plan
 - [PLAN.md](./PLAN.md) — robust enterprise plan (vision, architecture, roadmap, risks; includes an applied-improvements appendix + review sign-off)
@@ -15,8 +15,8 @@ This is an **Elyos** good-deed project. Contributors pull a task, do it with the
 
 ## Contribute
 ```bash
-elyos browse
-elyos next --repo Elyos-Projects/disparities-analysis --no-fork
+hee-lee-oss browse
+hee-lee-oss next --repo Hee-Lee-Oss-Projects/disparities-analysis --no-fork
 ```
 
 ## Licensing & review

@@ -19,7 +19,7 @@
     "The steward's outcome attestation is recorded in the project governance log",
     "Methods and framing are independently verified on all materials the partner used; the verification record is stored with the outcome log",
     "Any patient-facing piece used by the partner maintains the 'general education, not medical advice — consult your care team' framing and the oncologist + advocate sign-off record is confirmed intact",
-    "The outcome record is the basis for Elyos reporting the deed as delivered: a real beneficiary, a confirmed concrete use, framing and methods verified"
+    "The outcome record is the basis for Hee-Lee Oss reporting the deed as delivered: a real beneficiary, a confirmed concrete use, framing and methods verified"
   ],
   "resources": [
     "PLAN.md",
@@ -28,7 +28,7 @@
     "tasks/disparities-analysis-brief-011.json",
     "tasks/disparities-analysis-report-012.json"
   ],
-  "output": "A governance outcome record documenting the partner's confirmed use of the analysis (program/report/grant/decision), the steward's attestation, the methods + framing verification confirmation, and the Elyos deed-delivery record.",
+  "output": "A governance outcome record documenting the partner's confirmed use of the analysis (program/report/grant/decision), the steward's attestation, the methods + framing verification confirmation, and the Hee-Lee Oss deed-delivery record.",
   "requestor": "TO BE SECURED",
   "verifiedNeed": false,
   "outputLicense": "CC-BY-4.0"

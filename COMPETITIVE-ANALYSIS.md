@@ -1,6 +1,6 @@
 # Competitive + Improvement Analysis — `disparities-analysis`
 
-> Subject: Elyos cancer good-deed project producing open, reproducible analyses of **cancer
+> Subject: Hee-Lee Oss cancer good-deed project producing open, reproducible analyses of **cancer
 > outcome disparities** from aggregate public data (race/ethnicity, geography, SES), with
 > non-stigmatizing, structural (non-victim-blaming) framing. Risk: MEDIUM core / HIGH
 > patient-facing. Analyst: Explore/research agent. Date: 2026-06-29.
@@ -292,7 +292,7 @@ humans and the affected community decide what is true, safe, and shippable.**
 ## 7. Parallel & perpendicular spin-offs
 
 **Parallel (same domain, reuse the engine):**
-- **`incidence-explorers`** (named sibling in the Elyos roadmap): the same parameterized acquisition/
+- **`incidence-explorers`** (named sibling in the Hee-Lee Oss roadmap): the same parameterized acquisition/
   provenance/age-standardization core powers incidence exploration; disparities-analysis is the
   reviewed-narrative layer on top.
 - **`screening-coverage-trends`**: BRFSS/USCS screening-uptake disparities (colorectal, cervical,
